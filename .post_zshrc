@@ -1,0 +1,9 @@
+export EDITOR=vim
+export GOPATH=$HOME/workspace/go
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+# add gnubin coreutils
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# set proxy
+export https_proxy=http://127.0.0.1:9090;export http_proxy=http://127.0.0.1:9090
